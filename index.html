@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-2">Histories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-3">Culture</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-secondary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="showPage">
+      <h1>Barcelona Landing Page</h1>
+      <p>All about this beautiful country</p>
+      <button type="button" class="btn-1">Read About</button>
+    </header>
+
+    <section id="section-1">
+      <h1>About Barcelona</h1>
+      <p>
+        Barcelona (bahasa Inggris: /bɑːrsəˈloʊnə/, Katalan: [bərsəˈɫonə], bahasa
+        Spanyol: [barθeˈlona]) adalah sebuah kota terbesar kedua di Spanyol dan
+        merupakan ibu kota wilayah otonom Katalonia. Jumlah penduduknya di
+        wilayah pusat kota adalah 1,6 juta jiwa. Bersama dengan wilayah di
+        sekitar sisi kota, penduduknya berjumlah 4,5 juta jiwa. Penduduk di
+        wilayah metropolitan (kota dan kota-kota satelit) adalah sekitar 5 juta
+        jiwa. Luas wilayahnya adalah 100,4 km² dan kepadatannya adalah
+        15.764/km² (2001).
+      </p>
+    </section>
+
+    <section id="section-2">
+      <h1>Histories</h1>
+      <div class="flex-columns text-center">
+        <p>
+          Barcelona didirikan oleh orang Romawi pada abad ke-1 SM dengan nama
+          Barcino. Kota ini menjadi salah satu pos perdagangan penting di
+          wilayah tersebut.
+        </p>
+        <p>
+          Pada abad ke-8, Barcelona ditaklukkan oleh bangsa Moor Muslim, dan
+          wilayah ini menjadi bagian dari Al-Andalus.
+        </p>
+        <p>
+          Pada abad ke-9 dan 10, wilayah Barcelona menjadi target Reconquista,
+          usaha untuk merebut kembali Spanyol dari kekuasaan Moor. Pada tahun
+          801, Barcelona berhasil direbut kembali oleh orang Kristen.
+        </p>
+      </div>
+    </section>
+
+    <section id="section-3">
+      <h1>Culture</h1>
+      <div class="container">
+        <div class="flex-columns text-center">
+          <div class="col-satu">
+            Makanan dan Minuman: Kuliner adalah bagian penting dari budaya
+            Barcelona. Makanan Katalonia yang terkenal termasuk paella, tapas,
+            dan crema catalana. Juga, kota ini memiliki pasar-pasar makanan
+            tradisional yang populer seperti La Boqueria.
+          </div>
+          <div>
+            <img src="/images/bc cultur.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="flex-columns text-center">
+          <div>
+            <img src="/images/bc cultur2.jpg" alt="" />
+          </div>
+          <div class="col-dua">
+            Seni dan Arsitektur: Barcelona terkenal dengan seni dan arsitektur
+            yang luar biasa. Arsitektur khas Katalonia, yang dipimpin oleh
+            Antoni Gaudí, dapat ditemukan dalam bangunan-bangunan seperti
+            Sagrada Família, Casa Batlló, dan Park Güell.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-body-tertiary">
+      <p>&copy; Made by Mifura 2023</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
